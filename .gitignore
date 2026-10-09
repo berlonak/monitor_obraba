@@ -1,0 +1,31 @@
+# Секреты и файлы авторизации не помещать в git
+config.yaml
+sessions/
+*.session
+*.session-journal
+*.session-wal
+*.session-shm
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+logs/
+__pycache__/
+*.pyc
+.venv/
+*.lock
+
+# Secrets (env files) and local backups
+.env
+.env.*
+!.env.example
+secrets.local.txt
+
+# Python / tool caches
+*.py[cod]
+*$py.class
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
