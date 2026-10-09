@@ -110,3 +110,7 @@ tests/              unit tests
 
 `config.yaml`, `sessions/`, `*.session*`, `*.sqlite3*` and `logs/` are excluded from Git. Session
 files give full access to operator accounts, and the debug log contains dialog and message IDs.
+
+## License
+
+Copyright 2026 berlonak. Licensed under the [Apache License, Version 2.0](LICENSE).
